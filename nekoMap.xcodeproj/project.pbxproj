@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91166AEA1E654F04005FC2BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91166AE91E654F04005FC2BB /* AppDelegate.swift */; };
+		91166AEC1E654F05005FC2BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91166AEB1E654F05005FC2BB /* ViewController.swift */; };
+		91166AEF1E654F05005FC2BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91166AED1E654F05005FC2BB /* Main.storyboard */; };
+		91166AF11E654F05005FC2BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91166AF01E654F05005FC2BB /* Assets.xcassets */; };
+		91166AF41E654F05005FC2BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91166AF21E654F05005FC2BB /* LaunchScreen.storyboard */; };
+		91166AFF1E654F05005FC2BB /* nekoMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91166AFE1E654F05005FC2BB /* nekoMapTests.swift */; };
+		91166B0A1E654F05005FC2BB /* nekoMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91166B091E654F05005FC2BB /* nekoMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91166AFB1E654F05005FC2BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91166ADE1E654F04005FC2BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91166AE51E654F04005FC2BB;
+			remoteInfo = nekoMap;
+		};
+		91166B061E654F05005FC2BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91166ADE1E654F04005FC2BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91166AE51E654F04005FC2BB;
+			remoteInfo = nekoMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91166AE61E654F04005FC2BB /* nekoMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nekoMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91166AE91E654F04005FC2BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91166AEB1E654F05005FC2BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91166AEE1E654F05005FC2BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91166AF01E654F05005FC2BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91166AF31E654F05005FC2BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91166AF51E654F05005FC2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91166AFA1E654F05005FC2BB /* nekoMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nekoMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91166AFE1E654F05005FC2BB /* nekoMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nekoMapTests.swift; sourceTree = "<group>"; };
+		91166B001E654F05005FC2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91166B051E654F05005FC2BB /* nekoMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nekoMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91166B091E654F05005FC2BB /* nekoMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nekoMapUITests.swift; sourceTree = "<group>"; };
+		91166B0B1E654F05005FC2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91166AE31E654F04005FC2BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91166AF71E654F05005FC2BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91166B021E654F05005FC2BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91166ADD1E654F04005FC2BB = {
+			isa = PBXGroup;
+			children = (
+				91166AE81E654F04005FC2BB /* nekoMap */,
+				91166AFD1E654F05005FC2BB /* nekoMapTests */,
+				91166B081E654F05005FC2BB /* nekoMapUITests */,
+				91166AE71E654F04005FC2BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91166AE71E654F04005FC2BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91166AE61E654F04005FC2BB /* nekoMap.app */,
+				91166AFA1E654F05005FC2BB /* nekoMapTests.xctest */,
+				91166B051E654F05005FC2BB /* nekoMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91166AE81E654F04005FC2BB /* nekoMap */ = {
+			isa = PBXGroup;
+			children = (
+				91166AE91E654F04005FC2BB /* AppDelegate.swift */,
+				91166AEB1E654F05005FC2BB /* ViewController.swift */,
+				91166AED1E654F05005FC2BB /* Main.storyboard */,
+				91166AF01E654F05005FC2BB /* Assets.xcassets */,
+				91166AF21E654F05005FC2BB /* LaunchScreen.storyboard */,
+				91166AF51E654F05005FC2BB /* Info.plist */,
+			);
+			path = nekoMap;
+			sourceTree = "<group>";
+		};
+		91166AFD1E654F05005FC2BB /* nekoMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				91166AFE1E654F05005FC2BB /* nekoMapTests.swift */,
+				91166B001E654F05005FC2BB /* Info.plist */,
+			);
+			path = nekoMapTests;
+			sourceTree = "<group>";
+		};
+		91166B081E654F05005FC2BB /* nekoMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91166B091E654F05005FC2BB /* nekoMapUITests.swift */,
+				91166B0B1E654F05005FC2BB /* Info.plist */,
+			);
+			path = nekoMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91166AE51E654F04005FC2BB /* nekoMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91166B0E1E654F05005FC2BB /* Build configuration list for PBXNativeTarget "nekoMap" */;
+			buildPhases = (
+				91166AE21E654F04005FC2BB /* Sources */,
+				91166AE31E654F04005FC2BB /* Frameworks */,
+				91166AE41E654F04005FC2BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nekoMap;
+			productName = nekoMap;
+			productReference = 91166AE61E654F04005FC2BB /* nekoMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91166AF91E654F05005FC2BB /* nekoMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91166B111E654F05005FC2BB /* Build configuration list for PBXNativeTarget "nekoMapTests" */;
+			buildPhases = (
+				91166AF61E654F05005FC2BB /* Sources */,
+				91166AF71E654F05005FC2BB /* Frameworks */,
+				91166AF81E654F05005FC2BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91166AFC1E654F05005FC2BB /* PBXTargetDependency */,
+			);
+			name = nekoMapTests;
+			productName = nekoMapTests;
+			productReference = 91166AFA1E654F05005FC2BB /* nekoMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91166B041E654F05005FC2BB /* nekoMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91166B141E654F05005FC2BB /* Build configuration list for PBXNativeTarget "nekoMapUITests" */;
+			buildPhases = (
+				91166B011E654F05005FC2BB /* Sources */,
+				91166B021E654F05005FC2BB /* Frameworks */,
+				91166B031E654F05005FC2BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91166B071E654F05005FC2BB /* PBXTargetDependency */,
+			);
+			name = nekoMapUITests;
+			productName = nekoMapUITests;
+			productReference = 91166B051E654F05005FC2BB /* nekoMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91166ADE1E654F04005FC2BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xin;
+				TargetAttributes = {
+					91166AE51E654F04005FC2BB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					91166AF91E654F05005FC2BB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91166AE51E654F04005FC2BB;
+					};
+					91166B041E654F05005FC2BB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91166AE51E654F04005FC2BB;
+					};
+				};
+			};
+			buildConfigurationList = 91166AE11E654F04005FC2BB /* Build configuration list for PBXProject "nekoMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91166ADD1E654F04005FC2BB;
+			productRefGroup = 91166AE71E654F04005FC2BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91166AE51E654F04005FC2BB /* nekoMap */,
+				91166AF91E654F05005FC2BB /* nekoMapTests */,
+				91166B041E654F05005FC2BB /* nekoMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91166AE41E654F04005FC2BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91166AF41E654F05005FC2BB /* LaunchScreen.storyboard in Resources */,
+				91166AF11E654F05005FC2BB /* Assets.xcassets in Resources */,
+				91166AEF1E654F05005FC2BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91166AF81E654F05005FC2BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91166B031E654F05005FC2BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91166AE21E654F04005FC2BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91166AEC1E654F05005FC2BB /* ViewController.swift in Sources */,
+				91166AEA1E654F04005FC2BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91166AF61E654F05005FC2BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91166AFF1E654F05005FC2BB /* nekoMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91166B011E654F05005FC2BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91166B0A1E654F05005FC2BB /* nekoMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91166AFC1E654F05005FC2BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91166AE51E654F04005FC2BB /* nekoMap */;
+			targetProxy = 91166AFB1E654F05005FC2BB /* PBXContainerItemProxy */;
+		};
+		91166B071E654F05005FC2BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91166AE51E654F04005FC2BB /* nekoMap */;
+			targetProxy = 91166B061E654F05005FC2BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91166AED1E654F05005FC2BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91166AEE1E654F05005FC2BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91166AF21E654F05005FC2BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91166AF31E654F05005FC2BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91166B0C1E654F05005FC2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91166B0D1E654F05005FC2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91166B0F1E654F05005FC2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nekoMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.nekoMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		91166B101E654F05005FC2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nekoMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.nekoMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		91166B121E654F05005FC2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nekoMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.nekoMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nekoMap.app/nekoMap";
+			};
+			name = Debug;
+		};
+		91166B131E654F05005FC2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nekoMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.nekoMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nekoMap.app/nekoMap";
+			};
+			name = Release;
+		};
+		91166B151E654F05005FC2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = nekoMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.nekoMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = nekoMap;
+			};
+			name = Debug;
+		};
+		91166B161E654F05005FC2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = nekoMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.nekoMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = nekoMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91166AE11E654F04005FC2BB /* Build configuration list for PBXProject "nekoMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91166B0C1E654F05005FC2BB /* Debug */,
+				91166B0D1E654F05005FC2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91166B0E1E654F05005FC2BB /* Build configuration list for PBXNativeTarget "nekoMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91166B0F1E654F05005FC2BB /* Debug */,
+				91166B101E654F05005FC2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91166B111E654F05005FC2BB /* Build configuration list for PBXNativeTarget "nekoMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91166B121E654F05005FC2BB /* Debug */,
+				91166B131E654F05005FC2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91166B141E654F05005FC2BB /* Build configuration list for PBXNativeTarget "nekoMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91166B151E654F05005FC2BB /* Debug */,
+				91166B161E654F05005FC2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91166ADE1E654F04005FC2BB /* Project object */;
+}
