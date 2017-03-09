@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122304018582EA09EC17D199 /* libPods-nekoMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA49140A4E0F9F8EB62E7B88 /* libPods-nekoMap.a */; };
 		91166AEA1E654F04005FC2BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91166AE91E654F04005FC2BB /* AppDelegate.swift */; };
 		91166AEC1E654F05005FC2BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91166AEB1E654F05005FC2BB /* ViewController.swift */; };
 		91166AEF1E654F05005FC2BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91166AED1E654F05005FC2BB /* Main.storyboard */; };
@@ -14,6 +15,16 @@
 		91166AF41E654F05005FC2BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91166AF21E654F05005FC2BB /* LaunchScreen.storyboard */; };
 		91166AFF1E654F05005FC2BB /* nekoMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91166AFE1E654F05005FC2BB /* nekoMapTests.swift */; };
 		91166B0A1E654F05005FC2BB /* nekoMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91166B091E654F05005FC2BB /* nekoMapUITests.swift */; };
+		91166B1E1E657238005FC2BB /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 91166B1A1E657238005FC2BB /* Logo.png */; };
+		91166B1F1E657238005FC2BB /* paworange.png in Resources */ = {isa = PBXBuildFile; fileRef = 91166B1B1E657238005FC2BB /* paworange.png */; };
+		91166B201E657238005FC2BB /* pawred.png in Resources */ = {isa = PBXBuildFile; fileRef = 91166B1C1E657238005FC2BB /* pawred.png */; };
+		91166B211E657238005FC2BB /* pawredsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 91166B1D1E657238005FC2BB /* pawredsmall.png */; };
+		91238F561E6E8AC100C01785 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91238F551E6E8AC100C01785 /* PlacesViewController.swift */; };
+		91238F601E6EE71400C01785 /* paworange1.png in Resources */ = {isa = PBXBuildFile; fileRef = 91238F5F1E6EE71400C01785 /* paworange1.png */; };
+		91238F681E711D9600C01785 /* AnimalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91238F671E711D9600C01785 /* AnimalTableViewController.swift */; };
+		91238F6C1E713B1800C01785 /* AnimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91238F6B1E713B1800C01785 /* AnimalTableViewCell.swift */; };
+		91238F6E1E713DA700C01785 /* AnimalSubTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91238F6D1E713DA700C01785 /* AnimalSubTableViewController.swift */; };
+		91238F701E71420800C01785 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91238F6F1E71420800C01785 /* Animals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DC8EB20846DA9ECDE03B34D /* Pods-nekoMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nekoMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nekoMap/Pods-nekoMap.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB0669043C17141610C005 /* Pods-nekoMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nekoMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-nekoMap/Pods-nekoMap.release.xcconfig"; sourceTree = "<group>"; };
 		91166AE61E654F04005FC2BB /* nekoMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nekoMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91166AE91E654F04005FC2BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91166AEB1E654F05005FC2BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,17 @@
 		91166B051E654F05005FC2BB /* nekoMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nekoMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91166B091E654F05005FC2BB /* nekoMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nekoMapUITests.swift; sourceTree = "<group>"; };
 		91166B0B1E654F05005FC2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91166B1A1E657238005FC2BB /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		91166B1B1E657238005FC2BB /* paworange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paworange.png; sourceTree = "<group>"; };
+		91166B1C1E657238005FC2BB /* pawred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pawred.png; sourceTree = "<group>"; };
+		91166B1D1E657238005FC2BB /* pawredsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pawredsmall.png; sourceTree = "<group>"; };
+		91238F551E6E8AC100C01785 /* PlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		91238F5F1E6EE71400C01785 /* paworange1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paworange1.png; sourceTree = "<group>"; };
+		91238F671E711D9600C01785 /* AnimalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		91238F6B1E713B1800C01785 /* AnimalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalTableViewCell.swift; sourceTree = "<group>"; };
+		91238F6D1E713DA700C01785 /* AnimalSubTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalSubTableViewController.swift; sourceTree = "<group>"; };
+		91238F6F1E71420800C01785 /* Animals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
+		DA49140A4E0F9F8EB62E7B88 /* libPods-nekoMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nekoMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122304018582EA09EC17D199 /* libPods-nekoMap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +99,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DE10914747432F7B04FFC89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DC8EB20846DA9ECDE03B34D /* Pods-nekoMap.debug.xcconfig */,
+				46EB0669043C17141610C005 /* Pods-nekoMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		91166ADD1E654F04005FC2BB = {
 			isa = PBXGroup;
 			children = (
+				91166B191E657238005FC2BB /* nekoMap material */,
 				91166AE81E654F04005FC2BB /* nekoMap */,
 				91166AFD1E654F05005FC2BB /* nekoMapTests */,
 				91166B081E654F05005FC2BB /* nekoMapUITests */,
 				91166AE71E654F04005FC2BB /* Products */,
+				5DE10914747432F7B04FFC89 /* Pods */,
+				FD441AC60E5985472E5CD105 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +136,11 @@
 			children = (
 				91166AE91E654F04005FC2BB /* AppDelegate.swift */,
 				91166AEB1E654F05005FC2BB /* ViewController.swift */,
+				91238F6B1E713B1800C01785 /* AnimalTableViewCell.swift */,
+				91238F671E711D9600C01785 /* AnimalTableViewController.swift */,
+				91238F6D1E713DA700C01785 /* AnimalSubTableViewController.swift */,
+				91238F6F1E71420800C01785 /* Animals.swift */,
+				91238F551E6E8AC100C01785 /* PlacesViewController.swift */,
 				91166AED1E654F05005FC2BB /* Main.storyboard */,
 				91166AF01E654F05005FC2BB /* Assets.xcassets */,
 				91166AF21E654F05005FC2BB /* LaunchScreen.storyboard */,
@@ -125,6 +167,26 @@
 			path = nekoMapUITests;
 			sourceTree = "<group>";
 		};
+		91166B191E657238005FC2BB /* nekoMap material */ = {
+			isa = PBXGroup;
+			children = (
+				91238F5F1E6EE71400C01785 /* paworange1.png */,
+				91166B1A1E657238005FC2BB /* Logo.png */,
+				91166B1B1E657238005FC2BB /* paworange.png */,
+				91166B1C1E657238005FC2BB /* pawred.png */,
+				91166B1D1E657238005FC2BB /* pawredsmall.png */,
+			);
+			path = "nekoMap material";
+			sourceTree = SOURCE_ROOT;
+		};
+		FD441AC60E5985472E5CD105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA49140A4E0F9F8EB62E7B88 /* libPods-nekoMap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91166B0E1E654F05005FC2BB /* Build configuration list for PBXNativeTarget "nekoMap" */;
 			buildPhases = (
+				A57C44D018CE86344E7FDE55 /* [CP] Check Pods Manifest.lock */,
 				91166AE21E654F04005FC2BB /* Sources */,
 				91166AE31E654F04005FC2BB /* Frameworks */,
 				91166AE41E654F04005FC2BB /* Resources */,
+				821CF39C8E32DD440F962FA2 /* [CP] Embed Pods Frameworks */,
+				6EA38B0AE331F62BDE1462B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +258,7 @@
 				TargetAttributes = {
 					91166AE51E654F04005FC2BB = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QXJ249J4X3;
 						ProvisioningStyle = Automatic;
 					};
 					91166AF91E654F05005FC2BB = {
@@ -232,8 +298,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91166B1E1E657238005FC2BB /* Logo.png in Resources */,
 				91166AF41E654F05005FC2BB /* LaunchScreen.storyboard in Resources */,
+				91166B211E657238005FC2BB /* pawredsmall.png in Resources */,
+				91166B201E657238005FC2BB /* pawred.png in Resources */,
+				91166B1F1E657238005FC2BB /* paworange.png in Resources */,
 				91166AF11E654F05005FC2BB /* Assets.xcassets in Resources */,
+				91238F601E6EE71400C01785 /* paworange1.png in Resources */,
 				91166AEF1E654F05005FC2BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +325,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6EA38B0AE331F62BDE1462B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nekoMap/Pods-nekoMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		821CF39C8E32DD440F962FA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nekoMap/Pods-nekoMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A57C44D018CE86344E7FDE55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		91166AE21E654F04005FC2BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91238F6E1E713DA700C01785 /* AnimalSubTableViewController.swift in Sources */,
+				91238F561E6E8AC100C01785 /* PlacesViewController.swift in Sources */,
+				91238F681E711D9600C01785 /* AnimalTableViewController.swift in Sources */,
 				91166AEC1E654F05005FC2BB /* ViewController.swift in Sources */,
+				91238F6C1E713B1800C01785 /* AnimalTableViewCell.swift in Sources */,
 				91166AEA1E654F04005FC2BB /* AppDelegate.swift in Sources */,
+				91238F701E71420800C01785 /* Animals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,8 +532,10 @@
 		};
 		91166B0F1E654F05005FC2BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC8EB20846DA9ECDE03B34D /* Pods-nekoMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QXJ249J4X3;
 				INFOPLIST_FILE = nekoMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xin.nekoMap;
@@ -420,8 +546,10 @@
 		};
 		91166B101E654F05005FC2BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB0669043C17141610C005 /* Pods-nekoMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QXJ249J4X3;
 				INFOPLIST_FILE = nekoMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xin.nekoMap;
@@ -503,6 +631,7 @@
 				91166B101E654F05005FC2BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91166B111E654F05005FC2BB /* Build configuration list for PBXNativeTarget "nekoMapTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +640,7 @@
 				91166B131E654F05005FC2BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91166B141E654F05005FC2BB /* Build configuration list for PBXNativeTarget "nekoMapUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +649,7 @@
 				91166B161E654F05005FC2BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
