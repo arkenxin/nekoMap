@@ -25,6 +25,8 @@
 		91238F6C1E713B1800C01785 /* AnimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91238F6B1E713B1800C01785 /* AnimalTableViewCell.swift */; };
 		91238F6E1E713DA700C01785 /* AnimalSubTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91238F6D1E713DA700C01785 /* AnimalSubTableViewController.swift */; };
 		91238F701E71420800C01785 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91238F6F1E71420800C01785 /* Animals.swift */; };
+		91E03C091E72355F0021F588 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E03C081E72355F0021F588 /* HomeModel.swift */; };
+		91E03C0B1E7235780021F588 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E03C0A1E7235780021F588 /* LocationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		91238F6B1E713B1800C01785 /* AnimalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalTableViewCell.swift; sourceTree = "<group>"; };
 		91238F6D1E713DA700C01785 /* AnimalSubTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalSubTableViewController.swift; sourceTree = "<group>"; };
 		91238F6F1E71420800C01785 /* Animals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
+		91E03C081E72355F0021F588 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		91E03C0A1E7235780021F588 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		DA49140A4E0F9F8EB62E7B88 /* libPods-nekoMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nekoMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -141,6 +145,8 @@
 				91238F6D1E713DA700C01785 /* AnimalSubTableViewController.swift */,
 				91238F6F1E71420800C01785 /* Animals.swift */,
 				91238F551E6E8AC100C01785 /* PlacesViewController.swift */,
+				91E03C081E72355F0021F588 /* HomeModel.swift */,
+				91E03C0A1E7235780021F588 /* LocationModel.swift */,
 				91166AED1E654F05005FC2BB /* Main.storyboard */,
 				91166AF01E654F05005FC2BB /* Assets.xcassets */,
 				91166AF21E654F05005FC2BB /* LaunchScreen.storyboard */,
@@ -382,6 +388,8 @@
 				91238F561E6E8AC100C01785 /* PlacesViewController.swift in Sources */,
 				91238F681E711D9600C01785 /* AnimalTableViewController.swift in Sources */,
 				91166AEC1E654F05005FC2BB /* ViewController.swift in Sources */,
+				91E03C0B1E7235780021F588 /* LocationModel.swift in Sources */,
+				91E03C091E72355F0021F588 /* HomeModel.swift in Sources */,
 				91238F6C1E713B1800C01785 /* AnimalTableViewCell.swift in Sources */,
 				91166AEA1E654F04005FC2BB /* AppDelegate.swift in Sources */,
 				91238F701E71420800C01785 /* Animals.swift in Sources */,
